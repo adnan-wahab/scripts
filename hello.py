@@ -16,7 +16,7 @@ client = Client(account_sid, auth_token)
 
 for n in numbers:
     message = client.messages.create(
-                              body='daily reminder: people that abandon their friends are worse than trash',
+                              body='wow lol',
                               from_=n,
                               to='+17136773669'
                           )
